@@ -110,7 +110,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <EntryPointSymbol>_main2</EntryPointSymbol>
+      <EntryPointSymbol>_main3</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -132,6 +132,7 @@
   <ItemGroup>
     <MASM Include="Assignment3-4.asm" />
     <MASM Include="Assignment4-2.asm" />
+    <MASM Include="Assignment5-1.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
