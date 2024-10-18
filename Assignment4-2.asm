@@ -10,7 +10,7 @@ totalPoints dd ? ; declare a variable for the total points available
 finalGrade dd ? ; declare a variable for the final grade we are trying to calculate
 
 .code ; marks the begining of my code section
-_main PROC ; the entry point to my program
+_main4 PROC ; the entry point to my program
 
 
 ; addition
@@ -41,6 +41,6 @@ mov finalGrade, eax ; move the final grade we've calculated into a variable
 ; it is worth noting that our final result is being rounded down because the remainder is being ignored
 
 call ExitProcess ; calls the ExitProccess function so the OS will do the proper cleanup
-_main ENDP ; marks the end point of my _main segment
+_main4 ENDP ; marks the end point of my _main segment
 
 END ; marks the end of the program
